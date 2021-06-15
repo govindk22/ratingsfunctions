@@ -10,7 +10,7 @@ using Newtonsoft.Json;
 
 namespace RatingsApp
 {
-    public static class Rating
+    public static class CreateRating
     {
         [FunctionName("CreateRating")]
         public static async Task<IActionResult> Run(
