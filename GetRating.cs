@@ -39,5 +39,6 @@ namespace RatingsApp
         public string ProductId { get; set; }
         public int Rating { get; set; }
         public string UserNotes { get; set; }
+        public string TimeStamp { get; set; }
     }
 }
